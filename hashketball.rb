@@ -21,7 +21,7 @@ def game_hash {
     {
   :team_name => "away_team_name"
   :colors => "team colors"
-  :players => ["Alan Anderson", "Reggie Evans", "Brook Lopez", "Mason Plumlee", "Jason Terry"]
+  :players => ["Jeff Adrien", "Reggie Evans", "Brook Lopez", "Mason Plumlee", "Jason Terry"]
   
   
   [:number =>"", :shoe =>"", :points =>"", :rebounds =>"", :assists =>"", :steal =>"", :blocks =>"", :slam_dunks =>""]
