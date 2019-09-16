@@ -6,9 +6,16 @@ def game_hash {
   :team_name => "Brooklyn Nets"
   :colors => "Black, White"
   :players => ["Alan Anderson", "Reggie Evans", "Brook Lopez", "Mason Plumlee", "Jason Terry"]
-  
-  
-  [:number =>"", :shoe =>"", :points =>"", :rebounds =>"", :assists =>"", :steal =>"", :blocks =>"", :slam_dunks =>""]
+  player_stats("Alan Anderson")
+  => { :number => 0,
+        :shoe => 16,
+        :points => 22,
+        :rebounds => 12,
+        :assists => 12,
+        :steals => 3,
+        :blocks => 1,
+        :slam_dunks => 1
+      }
   ]
   
 }
@@ -22,9 +29,16 @@ def game_hash {
   :team_name => "Charlotte Hornets"
   :colors => "Turquoise, Purple"
   :players => ["Jeff Adrien", "Bismack Biyombo", "DeSagna Diop", "Ben Gordon", "Kemba Walker"]
-  
-  
-  [:number =>"", :shoe =>"", :points =>"", :rebounds =>"", :assists =>"", :steal =>"", :blocks =>"", :slam_dunks =>""]
+  player_stats("Jeff Adrien")
+  => { :number => 4,
+        :shoe => 18,
+        :points => 10,
+        :rebounds => 1,
+        :assists => 1,
+        :steals => 2,
+        :blocks => 7,
+        :slam_dunks => 2
+      }
   ]
   
 }
