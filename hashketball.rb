@@ -20,7 +20,7 @@ def game_hash {
   :away => [
     {
   :team_name => "away_team_name"
-  :colors => "team colors"
+  :colors => "Turquoise, Purple"
   :players => ["Jeff Adrien", "Bismack Biyombo", "DeSagna Diop", "Ben Gordon", "Kemba Walker"]
   
   
